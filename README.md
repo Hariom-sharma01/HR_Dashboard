@@ -57,5 +57,7 @@ A mini performance dashboard built using **React.js** for HR managers to view, s
 
 1. **Clone the repository:**
    ```bash
-   git clone 
-   cd 
+   git clone https://github.com/Hariom-sharma01/HR_Dashboard.git
+   cd frontend
+   npm install
+   npm run dev
