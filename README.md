@@ -53,6 +53,34 @@ A mini performance dashboard built using **React.js** for HR managers to view, s
 - Built using **Chart.js**
 ---
 
+## 📸 Screenshots
+
+### 🏠 Dashboard
+
+![Dashboard View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/Dashboard.png)
+
+![Dashboard View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/Dashboard1.png)
+
+![Dashboard View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/Dashboard2.png)
+
+![Dashboard View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/Dashboard3.png)
+
+### 👤 Dynamic User Details
+![Profile View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/profileDetails.png)
+
+![Profile View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/profileDetails1.png)
+
+![Profile View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/profileDetails2.png)
+
+![Profile View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/profileDetails3.png)
+
+### Bookmarked Employees
+![Bookemarked empl. View](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/Bookmarks.png)
+
+### 📊 Analytics Page
+
+![Analytics Chart](https://github.com/Hariom-sharma01/HR_Dashboard/blob/main/images/Analytics.png)
+
 ## 🛠️ **Setup Instructions**
 
 1. **Clone the repository:**
