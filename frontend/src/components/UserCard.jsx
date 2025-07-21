@@ -21,7 +21,11 @@ const UserCard = ({ user }) => {
   };
 
   return (
-    <div className="border rounded-lg p-4 shadow-md bg-white dark:bg-gray-800 flex flex-col">
+    <div className="border border-gray-300 rounded-lg p-4 shadow-md bg-white dark:bg-gray-800 flex flex-col 
+                transition-all duration-300 ease-in-out
+                hover:border-b-black hover:shadow-xl hover:scale-105 hover:bg-blue-50 dark:hover:bg-gray-700 
+                hover:ring-2 hover:ring-blue-400">
+
       <div className="flex items-center mb-4">
         <img
           src={user.image}
@@ -29,14 +33,14 @@ const UserCard = ({ user }) => {
           className="w-16 h-16 rounded-full mr-4"
         />
         <div className="min-w-0">
-  <h2 className="text-xl font-bold truncate">
-    {user.firstName} {user.lastName}
-  </h2>
-  <p className="text-gray-500 dark:text-gray-400 break-words">
-    {user.email}
-  </p>
-  <p className="text-gray-500 dark:text-gray-400">Age: {user.age}</p>
-</div>
+          <h2 className="text-xl font-bold truncate">
+            {user.firstName} {user.lastName}
+          </h2>
+          <p className="text-gray-500 dark:text-gray-400 break-words">
+            {user.email}
+          </p>
+          <p className="text-gray-500 dark:text-gray-400">Age: {user.age}</p>
+        </div>
 
       </div>
       <div className="flex items-center justify-between mb-2">
@@ -69,9 +73,8 @@ const UserCard = ({ user }) => {
         </div>
         <button
           onClick={handlePromote}
-          className={`w-full text-sm px-4 py-2 rounded ${
-            promoted ? 'bg-green-500 text-white' : 'bg-green-100 text-green-800'
-          } hover:opacity-90`}
+          className={`w-full text-sm px-4 py-2 rounded ${promoted ? 'bg-green-500 text-white' : 'bg-green-100 text-green-800'
+            } hover:opacity-90`}
         >
           {promoted ? 'Promoted ✅' : 'Promote'}
         </button>
